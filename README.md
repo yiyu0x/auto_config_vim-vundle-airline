@@ -8,6 +8,8 @@
 
 - 單純想用airline卻不會安裝的同胞
 
+- 覺得用macbook不夠潮 還想要用vim+airline的潮潮們(?
+
 ## 介紹
 
 ![](https://i.imgur.com/GdzjHUv.gif)
