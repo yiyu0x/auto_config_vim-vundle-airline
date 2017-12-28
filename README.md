@@ -14,7 +14,7 @@
 
 - 支援系統
   - ubuntu
-
+  - macOS [source code is here](https://github.com/yiyu0x/auto-config-vim/blob/master/install_for_mac.sh)
 - 自動安裝 
   - git
   - vim
