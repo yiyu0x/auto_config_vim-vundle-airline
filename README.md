@@ -1,4 +1,4 @@
-# basic-config-vim
+# auto-config-vim
 
 ## 適合對象
 
