@@ -51,6 +51,9 @@ filetype plugin indent on    \" required
 
 \"airline theme
 let g:airline_theme = 'light'
+let g:airline_powerline_fonts = 1
+set laststatus=2
+set t_Co=256
 " >> ~/.vimrc
 
 
