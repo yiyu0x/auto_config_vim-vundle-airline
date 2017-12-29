@@ -16,6 +16,8 @@
   - ubuntu
   - macOS [source code is here](https://github.com/yiyu0x/auto-config-vim/blob/master/install_for_mac.sh)
 - 自動安裝 
+  - macOS
+    - homebrew
   - git
   - vim
   - vundle (vim套件管理工具) [github](https://github.com/VundleVim/Vundle.vim)
@@ -27,9 +29,6 @@
 
 在目錄中執行install.sh
 > ./install.sh
-
-macOS用戶請執行install_for_mac.sh
-> ./install_for_mac.sh
 
 ![](https://i.imgur.com/AOBSwr1.png)
 
