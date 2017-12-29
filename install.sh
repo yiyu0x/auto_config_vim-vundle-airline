@@ -1,6 +1,22 @@
 #!/bin/bash
 
-sudo apt-get -y install git vim
+echo " MADE BY yiyu0x (https://github.com/yiyu0x)"
+echo " auto-config-vim will start ... "
+
+case "$OSTYPE" in
+    darwin*)  macOS;;
+    linux*)   linux;;
+    *)        echo "unknown: OS: $OSTYPE, not support yet ,please call report for me " ;;
+esac
+
+function masOS(){
+	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+	brew install git
+}	
+
+function linux(){
+	sudo apt-get -y install git vim
+}
 
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
@@ -25,4 +41,3 @@ let g:airline_theme = 'light'
 
 
 vim -c "PluginInstall" -c "q" -c "q"
-
