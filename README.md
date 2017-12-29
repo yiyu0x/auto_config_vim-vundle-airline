@@ -10,7 +10,13 @@
 
 ## 介紹
 
+- macOS
+
 ![](https://i.imgur.com/GdzjHUv.gif)
+
+- ubuntu
+
+![](https://i.imgur.com/1Zgdwh6.gif)
 
 - 支援系統
   - ubuntu
