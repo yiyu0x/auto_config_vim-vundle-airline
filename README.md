@@ -30,9 +30,6 @@
 在目錄中執行install.sh
 > ./install.sh
 
-macOS用戶請執行install_for_mac.sh
-> ./install_for_mac.sh
-
 ![](https://i.imgur.com/AOBSwr1.png)
 
 ### 完成!
