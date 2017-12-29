@@ -3,20 +3,34 @@
 echo " MADE BY yiyu0x (https://github.com/yiyu0x)"
 echo " auto-config-vim will start ... "
 
-case "$OSTYPE" in
-    darwin*)  macOS;;
-    linux*)   linux;;
-    *)        echo "unknown: OS: $OSTYPE, not support yet ,please call report for me " ;;
-esac
+go=0
 
-function masOS(){
+
+masOS(){
+	go=1
 	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 	brew install git
 }	
 
-function linux(){
+linux(){
+	go=1
 	sudo apt-get -y install git vim
 }
+
+
+
+case "$OSTYPE" in
+    darwin*)  macOS ;;
+    linux*)   linux ;;
+    *)        echo "unknown: OS: $OSTYPE, not support yet ,please call report for me " ;;
+esac
+
+
+
+if [ $go -eq 0 ]
+then
+    exit
+fi
 
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
