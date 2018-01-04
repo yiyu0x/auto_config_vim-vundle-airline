@@ -22,7 +22,7 @@ linux(){
 case "$OSTYPE" in
     darwin*)  macOS ;;
     linux*)   linux ;;
-    *)        echo "unknown: OS: $OSTYPE, not support yet ,please call report for me " ;;
+    *)        echo "unknown: OS: $OSTYPE, not support yet ,please contact me " ;;
 esac
 
 
