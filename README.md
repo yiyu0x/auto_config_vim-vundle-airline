@@ -1,5 +1,9 @@
 # auto-config-vim
 
+## 功能
+
+自動安裝vundle(vim套件管理工具)與airline(vim模式提示插件)
+
 ## 適合對象
 
 - 常常需要在新的環境coding，卻懶得重新配置vim
@@ -26,8 +30,8 @@
     - homebrew
   - git
   - vim
-  - vundle (vim套件管理工具) [github](https://github.com/VundleVim/Vundle.vim)
-  - airline (vim環境中高亮度顯示模式) [github](https://github.com/vim-airline/vim-airline)
+  - [vundle](https://github.com/VundleVim/Vundle.vim)(vim套件管理工具)
+  - [airline](https://github.com/vim-airline/vim-airline)(vim環境中高亮度顯示模式)
 
 ## 使用說明
 
