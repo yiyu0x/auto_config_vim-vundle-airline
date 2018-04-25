@@ -54,6 +54,13 @@ let g:airline_theme = 'light'
 let g:airline_powerline_fonts = 1
 set laststatus=2
 set t_Co=256
+
+\"airline theme
+let g:airline_theme = 'kolor'
+let g:airline_right_alt_sep = ''
+let g:airline_right_sep = ''
+let g:airline_left_alt_sep= ''
+let g:airline_left_sep = ''
 " >> ~/.vimrc
 
 
