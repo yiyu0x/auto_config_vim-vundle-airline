@@ -22,6 +22,10 @@
 
 ![](https://i.imgur.com/SUbm92r.gif)
 
+install powerline-font `sudo apt-get install fonts-powerline`
+
+## details
+
 - 支援系統
   - ubuntu
   - macOS 
