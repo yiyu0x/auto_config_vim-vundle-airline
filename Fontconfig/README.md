@@ -1,4 +1,4 @@
-# this folder only for ubuntu
+# iterms2 fonts
 
 ## usage 
 
