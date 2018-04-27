@@ -20,7 +20,7 @@
 
 - ubuntu
 
-![](https://i.imgur.com/1Zgdwh6.gif)
+![](https://i.imgur.com/SUbm92r.gif)
 
 - 支援系統
   - ubuntu
